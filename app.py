@@ -1,7 +1,7 @@
 import streamlit as st
 
 st.set_page_config(
-    page_title="Liliana Hsu - Designer, Obsessed in Material design ",
+    page_title="Liliana Hsu ",
     page_icon="👨🏻‍💻",
     layout="centered",  # centered or wide
     initial_sidebar_state="auto",
@@ -29,20 +29,28 @@ with col1:
 with col2:
     st.markdown(
         """
-    # Ian Chen (He/Him)
+    # Liliana Hsu - Designer
                 
-    - Instructor at [Lighthouse Labs](https://www.lighthouselabs.ca/)
-    - Engineer at [Clio](https://www.clio.com/)
+    - Obsessed in Material design
+    - Fields of Interests - Product Design / Material Driven Design / AI-Driven Generative Design
     """
     )
 
 st.markdown(
     """
-# Projects
+# Education Background
 
-- [Project 1](https://www.google.com)
-- [Project 2](https://www.google.com)
-- [Project 3](https://www.google.com)
+- [Chiao Tung University  M.A. Applied Arts]
+- [Shih Chien University  B.A. Industrial Design]
+"""
+)
+
+st.markdown(
+    """
+# Work Experience
+
+- [Logitech Far East Ltd.  Innovation Committee ]
+- [Prosol Corp. Product Designer ]
 """
 )
 
