@@ -23,10 +23,6 @@ source venv/Scripts/activate
 pip install -r requirements.txt 
 ```
 
-## What's Included
-
-- `app.py`: The main Flask application
-
 ## Lessons Learned
 
 - How to use Streamlit to create a simple website
