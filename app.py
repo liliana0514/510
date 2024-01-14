@@ -10,7 +10,7 @@ st.set_page_config(
 st.header("Hi! I am Liliana.:tulip::cherry_blossom::rose::hibiscus::sunflower::blossom:")
 col1, col2 = st.columns([0.3, 0.7])
 with col1:
-    st.image('liliana.jpg', caption='Hi! I am Liliana!')
+    st.image('liliana.JPG', caption='Hi! I am Liliana!')
 
 with col2:
     st.subheader("Education")
