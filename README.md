@@ -24,5 +24,10 @@ pip install -r requirements.txt
 
 ## Questions / Uncertainties
 
-- What if I want to make the profile picture round?
-- How to use a two column layout?
+- How to upload photos to the webpage?
+- How to create an interactive webpage?
+
+
+## Contact
+
+- Liliana Hsu
