@@ -8,7 +8,7 @@ st.set_page_config(
 )
 
 st.snow()
-st.header("Hi, I am Liliana.")
+st.header("Hi, I am Liliana.:tulip::cherry_blossom::rose::hibiscus::sunflower::blossom:")
 
 col1, col2 = st.columns([0.3, 0.7])
 with col1:
@@ -30,8 +30,6 @@ with col1:
     )
     # st.image('https://avatars.githubusercontent.com/u/7678108?v=4')
 with col2:
-    st.write(":tulip::cherry_blossom::rose::hibiscus::sunflower::blossom:")
-    st.write("Obsessed in Material design")
     st.subheader("Education")
     st.write("University of Washington - M.S. Technology Innovation")
     st.write("Chiao Tung University - M.A. Applied Arts")
@@ -39,10 +37,9 @@ with col2:
     st.write("Prototyping Lab Specialist @ GIX")
     st.write("Innovation Committee @ Logitech Far East Ltd.")
     st.subheader("Hobbies")
-    st.write("Yoga")
+    st.write("Obsessed in Material design")
     st.subheader("Interesting project")
     st.write("Zhan Zhan Sweet Lab")
-    st.write("Machine Learning-Aided Design")
 
 
 col1, col2, col3 = st.columns(3)
