@@ -20,12 +20,12 @@ with col1:
 
     <div class="profile-img">
 
-    ![](https://github.com/liliana0514/510/blob/main/liliana.jpg)
+    ![](https://avatars.githubusercontent.com/u/7678108?v=4)
     </div>
     """,
         unsafe_allow_html=True,
     )
-    # st.image('https://github.com/liliana0514/510/blob/main/liliana.jpg')
+    # st.image('https://avatars.githubusercontent.com/u/7678108?v=4')
 with col2:
     st.write("tulip::cherry_blossom::rose::hibiscus::sunflower::blossom:")
     st.write("Obsessed in Material design")
@@ -106,7 +106,7 @@ text-align: left; /* you can replace 'left' with 'center' or 'right' if you want
 <div id="page-container">
 
 <div class="footer">
-<p style='font-size: 0.875em;'>Made with <a style='display: inline; text-align: left;' href="https://streamlit.io/" target="_blank">Streamlit</a><br 'style= top:3px;'>
+<p style='font-size: 0.875em;'>Made with <a style='display: inline; text-align: left;' href="https://streamlit.io/" target="_blank">Streamlit</a><br style='top:3px;'>
 with <img src="https://em-content.zobj.net/source/skype/289/red-heart_2764-fe0f.png" alt="heart" height= "10"/><a style='display: inline; text-align: left;' href="https://github.com/sape94" target="_blank"> by sape94</a></p>
 </div>
 
