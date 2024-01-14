@@ -11,7 +11,7 @@ col1, col2 = st.columns(2)
 
 with col1:
     st.image('liliana.JPG', caption='Me')
-    st.link_button("LinkedIn", "https://www.linkedin.com/in/chinshanlee/", help=None, type="secondary", disabled=False, use_container_width=False)
+    st.link_button("LinkedIn", "https://www.linkedin.com/in/liliana-hsu-43896a16b/", help=None, type="secondary", disabled=False, use_container_width=False)
 
 
 with col2:
