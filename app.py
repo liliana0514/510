@@ -7,10 +7,11 @@ st.set_page_config(
     initial_sidebar_state="auto",
 )
 
-st.header("Hi! I am Liliana.:tulip::cherry_blossom::rose::hibiscus::sunflower::blossom:")
+st.header("Hi! I am Liliana.:sunflower::blossom::sunflower::blossom::sunflower::blossom:")
 col1, col2 = st.columns([0.3, 0.7])
 with col1:
     st.image('liliana.JPG', caption='Hi! I am Liliana!', use_column_width="always")
+    st.link_button("LinkedIn", "https://www.linkedin.com/in/liliana-hsu-43896a16b/", help=None, type="secondary", disabled=False, use_container_width=False)
 
 with col2:
     st.subheader("Education")
@@ -26,25 +27,21 @@ st.divider()
 
 st.header("My Interesting project")
 # Interesting project
-col1, col2, col3 = st.columns(3)
+col1, col2= st.columns(2)
 
 with col1:
    st.write("Zhan Zhan Sweet Lab")
+   st.image('Zhan Zhan Sweet Lab.JPG', use_column_width="always")
 
 with col2:
    st.write("Zhuǎn zhuǎn")
+    st.image('Zhuan zhuan.JPG', use_column_width="always")
 
-with col3:
-   st.write("Machine Learning-Aided Design")
-
-
-
-st.link_button("LinkedIn", "https://www.linkedin.com/in/liliana-hsu-43896a16b/", help=None, type="secondary", disabled=False, use_container_width=False)
 
 st.divider()
 
 st.header("My Favorite Song")
-st.video("https://youtu.be/wA3mVqo-jvg?si=6fWBvft5O7-k2TcY", format="video/mp4", start_time=0)
+st.video("https://www.youtube.com/watch?v=NC_Lo8nRqfA", format="video/mp4", start_time=0)
 
 
 
