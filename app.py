@@ -20,38 +20,31 @@ with col1:
 
     <div class="profile-img">
 
-    ![](https://avatars.githubusercontent.com/u/7678108?v=4)
+    ![](https://github.com/liliana0514/510/blob/main/liliana.jpg)
     </div>
     """,
         unsafe_allow_html=True,
     )
     # st.image('https://github.com/liliana0514/510/blob/main/liliana.jpg')
 with col2:
-    st.markdown(
-        """
-    # Hi! I'm Liliana.
-    - Obsessed in Material design
-    - Fields of Interests - Product Design / Material Driven Design / AI-Driven Generative Design
-    """
-    )
+    st.write("tulip::cherry_blossom::rose::hibiscus::sunflower::blossom:")
+    st.write("Obsessed in Material design")
+    st.subheader("Education")
+    st.write("University of Washington - M.S. Technology Innovation")
+    st.write("Chiao Tung University - M.A. Applied Arts")
+    st.write("Shih Chien University = B.A. Industrial Design")
+    st.subheader("Work Experience") 
+    st.write("Prototyping Lab Specialist @ GIX")
+    st.write("Innovation Committee @ Logitech Far East Ltd.")
+    st.write("Product Designer @ Prosol Corp.")
+    st.subheader("Hobbies")
+    st.write("Yoga")
+    st.write("Travelling")
+    st.write("Reading")
+    st.subheader("Interesting project")
+    st.write("Zhan Zhan Sweet Lab")
+    st.write("Machine Learning-Aided Design")
 
-st.markdown(
-    """
-# Education Background
-
-- [Chiao Tung University  M.A. Applied Arts]
-- [Shih Chien University  B.A. Industrial Design]
-"""
-)
-
-st.markdown(
-    """
-# Work Experience
-
-- [Logitech Far East Ltd.  Innovation Committee ]
-- [Prosol Corp. Product Designer ]
-"""
-)
 
 st.markdown(
     """
