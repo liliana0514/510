@@ -8,7 +8,7 @@ st.set_page_config(
 )
 
 col1, col2 = st.columns([0.3, 0.7])
-with col1:
+with col1: 
     st.markdown(
         """
     <style>
@@ -25,25 +25,23 @@ with col1:
     """,
         unsafe_allow_html=True,
     )
-    # st.image('https://avatars.githubusercontent.com/u/7678108?v=4')
+    # st.image('https://github.com/liliana0514/510/blob/main/liliana.jpg')
 with col2:
     st.markdown(
         """
-    # Liliana Hsu - Designer
-                
-    - Obsessed in Material design
-    - Fields of Interests - Product Design / Material Driven Design / AI-Driven Generative Design
-    """
+    # Hi! I'm Liliana.&mdash;\
+            :tulip::cherry_blossom::rose::hibiscus::sunflower::blossom:
+    - Obsessed in Material design"""
     )
 
-st.markdown(
+    st.markdown(
     """
-# Education Background
-
-- [Chiao Tung University  M.A. Applied Arts]
-- [Shih Chien University  B.A. Industrial Design]
-"""
-)
+    # Education Background
+    - University of Washington - M.S. Technology Innovation
+    - Chiao Tung University - M.A. Applied Arts
+    - Shih Chien University = B.A. Industrial Design
+    """
+    )
 
 st.markdown(
     """
