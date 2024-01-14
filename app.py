@@ -7,6 +7,9 @@ st.set_page_config(
     initial_sidebar_state="auto",
 )
 
+st.snow()
+st.header("Hi, I am Liliana.")
+
 col1, col2 = st.columns([0.3, 0.7])
 with col1:
     st.markdown(
@@ -27,20 +30,16 @@ with col1:
     )
     # st.image('https://avatars.githubusercontent.com/u/7678108?v=4')
 with col2:
-    st.write("tulip::cherry_blossom::rose::hibiscus::sunflower::blossom:")
+    st.write(":tulip::cherry_blossom::rose::hibiscus::sunflower::blossom:")
     st.write("Obsessed in Material design")
     st.subheader("Education")
     st.write("University of Washington - M.S. Technology Innovation")
     st.write("Chiao Tung University - M.A. Applied Arts")
-    st.write("Shih Chien University = B.A. Industrial Design")
     st.subheader("Work Experience") 
     st.write("Prototyping Lab Specialist @ GIX")
     st.write("Innovation Committee @ Logitech Far East Ltd.")
-    st.write("Product Designer @ Prosol Corp.")
     st.subheader("Hobbies")
     st.write("Yoga")
-    st.write("Travelling")
-    st.write("Reading")
     st.subheader("Interesting project")
     st.write("Zhan Zhan Sweet Lab")
     st.write("Machine Learning-Aided Design")
