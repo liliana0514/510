@@ -25,6 +25,8 @@ with col2:
     st.write("Obsessed in Material design")
 
 st.divider()
+
+st.header("My Interesting project")
 # Interesting project
 col1, col2, col3 = st.columns(3)
 
@@ -39,16 +41,12 @@ with col3:
 
 
 
-st.link_button("LinkedIn", "https://www.linkedin.com/in/chinshanlee/", help=None, type="secondary", disabled=False, use_container_width=False)
+st.link_button("LinkedIn", "https://www.linkedin.com/in/liliana-hsu-43896a16b/", help=None, type="secondary", disabled=False, use_container_width=False)
 
 st.divider()
 
 st.header("My Favorite Song")
 st.video("https://youtu.be/wA3mVqo-jvg?si=6fWBvft5O7-k2TcY", format="video/mp4", start_time=0)
 
-st.divider()
 
-st.header("My Mental Health Status")
-st.line_chart(
-   chart_data, x="col1", y=["Angry", "Sad", "Happy"], color=["#E07A5F", "#A9BCD0", "#F2CC8F"]
-)
+
