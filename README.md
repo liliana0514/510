@@ -1,6 +1,6 @@
 # Liliana's personal website
 
-A personal website for TECHIN 510 Lab 1.
+Hi! I'm Liliana. This is the repository for my personal website for TECHIN 510. The website showcases my education, Work Experience, Hobbies and my interesting Projects. Click here to my website.
 
 ## How to Run
 
