@@ -7,8 +7,7 @@ st.set_page_config(
     initial_sidebar_state="auto",
 )
 
-st.header('''
-          :red[Hi] :green[,] :blue[I] :violet[am]:rainbow[Liliana] :gray[.]:tulip::cherry_blossom::rose::hibiscus::sunflower::blossom:''')
+st.header("Hi! I am Liliana.:tulip::cherry_blossom::rose::hibiscus::sunflower::blossom:")
 col1, col2 = st.columns([0.3, 0.7])
 with col1:
     st.image('https://avatars.githubusercontent.com/u/7678108?v=4')
