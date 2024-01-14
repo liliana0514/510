@@ -17,17 +17,10 @@ streamlit
 ```
 
 Open the terminal and run the following commands:
--Windows
 ```
 python -m venv venv             
 source venv/Scripts/activate        
 pip install -r requirements.txt 
-```
--Mac
-```
-python -m venv venv             
-source venv/bin/activate        
-pip install -r requirements.txt
 ```
 
 ## What's Included
