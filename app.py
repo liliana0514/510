@@ -29,13 +29,13 @@ st.header("My Interesting project")
 col1, col2, col3 = st.columns(3)
 
 with col1:
-   st.header("Zhan Zhan Sweet Lab")
+   st.write("Zhan Zhan Sweet Lab")
 
 with col2:
-   st.header("Zhuǎn zhuǎn")
+   st.write("Zhuǎn zhuǎn")
 
 with col3:
-   st.header("Machine Learning-Aided Design")
+   st.write("Machine Learning-Aided Design")
 
 
 
