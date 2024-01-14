@@ -11,23 +11,8 @@ st.header('''
           :red[Hi] :green[,] :blue[I] :violet[am]:rainbow[Liliana] :gray[.]:tulip::cherry_blossom::rose::hibiscus::sunflower::blossom:''')
 col1, col2 = st.columns([0.3, 0.7])
 with col1:
-    st.markdown(
-        """
-    <style>
-    .profile-img img {
-        width: 100%;
-        border-radius: 50%;
-    }
-    </style>
+    st.image('liliana.jpg', caption='Hi! I am Liliana!')
 
-    <div class="profile-img">
-
-    ![](https://avatars.githubusercontent.com/u/7678108?v=4)
-    </div>
-    """,
-        unsafe_allow_html=True,
-    )
-    # st.image('https://avatars.githubusercontent.com/u/7678108?v=4')
 with col2:
     st.subheader("Education")
     st.write("University of Washington - M.S. Technology Innovation")
@@ -44,15 +29,15 @@ col1, col2, col3 = st.columns(3)
 
 with col1:
    st.header("Zhan Zhan Sweet Lab")
-   st.image("https://static.streamlit.io/examples/cat.jpg")
+   st.image('liliana.jpg', caption=None, width=None, use_column_width=True, clamp=False, channels="RGB", output_format="auto")
 
 with col2:
    st.header("Zhuǎn zhuǎn")
-   st.image("https://static.streamlit.io/examples/dog.jpg")
+   st.image('liliana.jpg', caption=None, width=None, use_column_width=True, clamp=False, channels="RGB", output_format="auto")
 
 with col3:
    st.header("Machine Learning-Aided Design")
-   st.image("https://static.streamlit.io/examples/owl.jpg")
+   st.image('liliana.jpg', caption=None, width=None, use_column_width=True, clamp=False, channels="RGB", output_format="auto")
 
 
 ft = """
