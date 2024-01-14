@@ -30,13 +30,12 @@ st.header("My Interesting project")
 col1, col2= st.columns(2)
 
 with col1:
-   st.write("Zhan Zhan Sweet Lab")
-   st.image('Zhan Zhan Sweet Lab.JPG', use_column_width="always")
+    st.write("Zhan Zhan Sweet Lab")
+    st.image('Zhan Zhan Sweet Lab.JPG', use_column_width="always")
 
 with col2:
-   st.write("Zhuǎn zhuǎn")
+    st.write("Zhuǎn zhuǎn")
     st.image('Zhuan zhuan.JPG', use_column_width="always")
-
 
 st.divider()
 
