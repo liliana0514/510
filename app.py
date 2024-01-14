@@ -25,12 +25,12 @@ with col1:
     """,
         unsafe_allow_html=True,
     )
-    # st.image('https://github.com/liliana0514/510/blob/main/liliana.jpg')
+    # st.image('liliana.JPG', caption='Me')
 with col2:
     st.markdown(
         """
-    # Hi! I'm Liliana.&mdash;\
-            :tulip::cherry_blossom::rose::hibiscus::sunflower::blossom:
+    # Hi! I'm Liliana.
+    -:tulip::cherry_blossom::rose::hibiscus::sunflower::blossom:
     - Obsessed in Material design"""
     )
 
@@ -43,13 +43,43 @@ with col2:
     """
     )
 
-st.markdown(
+    st.markdown(
+        """
+    # Work Experience
+    - Prototyping Lab Specialist @ GIX
+    - Innovation Committee @ Logitech Far East Ltd.   
+    - Product Designer @ Prosol Corp.  
     """
-# Work Experience
+    )
 
-- [Logitech Far East Ltd.  Innovation Committee ]
-- [Prosol Corp. Product Designer ]
-"""
+    st.markdown(
+        """
+    # Hobbies and Interests
+    - Yoga 
+    - Travelling  
+    - Reading  
+    """
+    )
+
+    st.markdown(
+        """
+    # Interesting Projects
+    - Zhan Zhan Sweet Lab
+    - Machine Learning-Aided Design
+
+    """
+    )
+
+st.divider()
+
+st.header("My Favorite Song")
+st.video("https://youtu.be/wA3mVqo-jvg?si=6fWBvft5O7-k2TcY", format="video/mp4", start_time=0)
+
+st.divider()
+
+st.header("My Mental Health Status")
+st.line_chart(
+   chart_data, x="col1", y=["Angry", "Sad", "Happy"], color=["#E07A5F", "#A9BCD0", "#F2CC8F"]
 )
 
 st.markdown(
