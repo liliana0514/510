@@ -6,7 +6,7 @@ import numpy as np
 chart_data = pd.DataFrame(np.random.randn(20, 4), columns=["col1", "Angry", "Sad", "Happy"])
 
 st.balloons()
-st.header("Hi! I'm Liliana.")
+st.header("Hi! I'm Liliana.:balloon:")
 col1, col2 = st.columns(2)
 
 with col1:
@@ -26,9 +26,9 @@ with col2:
     st.write("Innovation Committee @ Logitech Far East Ltd.")
     st.write("Product Designer @ Prosol Corp.")
     st.subheader("Hobbies")
-    st.write("Yoga")
-    st.write("Travelling")
-    st.write("Reading")
+    st.write("Yoga":Yoga:)
+    st.write("Travelling":Travel:)
+    st.write("Reading":Read:)
     st.subheader("Interesting project")
     st.write("Zhan Zhan Sweet Lab")
     st.write("Machine Learning-Aided Design")
