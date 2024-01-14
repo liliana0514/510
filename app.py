@@ -46,31 +46,6 @@ with col2:
     st.write("Machine Learning-Aided Design")
 
 
-st.markdown(
-    """
-# Contact
-""")
-col1, col2, col3 = st.columns(3)
-
-# Card with image and text
-for col in [col1, col2, col3]:
-    col.markdown(
-        """
-        <style>
-        .profile-img img {
-            width: 100%;
-            border-radius: 10%;
-        }
-        </style>
-
-        <div class="profile-img">
-
-        ![](https://avatars.githubusercontent.com/u/7678108?v=4)
-        </div>
-        """,
-        unsafe_allow_html=True,
-    )
-
 col1, col2, col3 = st.columns(3)
 
 # Card with image and text
