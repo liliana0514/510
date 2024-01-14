@@ -28,7 +28,7 @@ with col2:
     st.subheader("Hobbies")
     st.write("Yoga":Yoga:)
     st.write("Travelling":Travel:)
-    st.write("Reading":Read:)
+    st.write("Reading":Reading:)
     st.subheader("Interesting project")
     st.write("Zhan Zhan Sweet Lab")
     st.write("Machine Learning-Aided Design")
