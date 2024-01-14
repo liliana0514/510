@@ -7,7 +7,7 @@ st.set_page_config(
     initial_sidebar_state="auto",
 )
 
-st.snow()
+st.cherry_blossom()
 st.header("Hi, I am Liliana.:tulip::cherry_blossom::rose::hibiscus::sunflower::blossom:")
 
 col1, col2 = st.columns([0.3, 0.7])
