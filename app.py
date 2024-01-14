@@ -6,7 +6,7 @@ import numpy as np
 chart_data = pd.DataFrame(np.random.randn(20, 4), columns=["col1", "Angry", "Sad", "Happy"])
 
 st.balloons()
-st.header("Hi! I'm Liliana.:balloon:")
+st.header("Hi! I'm Liliana.")
 col1, col2 = st.columns(2)
 
 with col1:
