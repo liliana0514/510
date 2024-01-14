@@ -1,46 +1,147 @@
 import streamlit as st
-import pandas as pd
-import numpy as np
 
-
-chart_data = pd.DataFrame(np.random.randn(20, 4), columns=["col1", "Angry", "Sad", "Happy"])
-
-st.balloons()
-st.header("Hi! I'm Liliana.")
-col1, col2 = st.columns(2)
-
-with col1:
-    st.image("liliana.JPG", caption="Hi! I'm Liliana.")
-    st.link_button("LinkedIn", "https://www.linkedin.com/in/liliana-hsu-43896a16b/", help=None, button_type="secondary", disabled=False, use_container_width=False)
-
-
-with col2:
-    st.write("tulip::cherry_blossom::rose::hibiscus::sunflower::blossom:")
-    st.write("Obsessed in Material design")
-    st.subheader("Education")
-    st.write("University of Washington - M.S. Technology Innovation")
-    st.write("Chiao Tung University - M.A. Applied Arts")
-    st.write("Shih Chien University = B.A. Industrial Design")
-    st.subheader("Work Experience") 
-    st.write("Prototyping Lab Specialist @ GIX")
-    st.write("Innovation Committee @ Logitech Far East Ltd.")
-    st.write("Product Designer @ Prosol Corp.")
-    st.subheader("Hobbies")
-    st.write("Yoga")
-    st.write("Travelling")
-    st.write("Reading")
-    st.subheader("Interesting project")
-    st.write("Zhan Zhan Sweet Lab")
-    st.write("Machine Learning-Aided Design")
-st.divider()
-
-st.header("My Favorite Song")
-st.video("https://youtu.be/wA3mVqo-jvg?si=6fWBvft5O7-k2TcY", format="video/mp4", start_time=0)
-
-st.divider()
-
-st.header("My Mental Health Status")
-st.line_chart(
-   chart_data, x="col1", y=["Angry", "Sad", "Happy"], color=["#E07A5F", "#A9BCD0", "#F2CC8F"]
+st.set_page_config(
+    page_title="Liliana Hsu ",
+    page_icon="👨🏻‍💻",
+    layout="centered",  # centered or wide
+    initial_sidebar_state="auto",
 )
 
+col1, col2 = st.columns([0.3, 0.7])
+with col1:
+    st.markdown(
+        """
+    <style>
+    .profile-img img {
+        width: 100%;
+        border-radius: 50%;
+    }
+    </style>
+
+    <div class="profile-img">
+
+    ![](https://avatars.githubusercontent.com/u/7678108?v=4)
+    </div>
+    """,
+        unsafe_allow_html=True,
+    )
+    # st.image('https://github.com/liliana0514/510/blob/main/liliana.jpg')
+with col2:
+    st.markdown(
+        """
+    # Hi! I'm Liliana.
+    - Obsessed in Material design
+    - Fields of Interests - Product Design / Material Driven Design / AI-Driven Generative Design
+    """
+    )
+
+st.markdown(
+    """
+# Education Background
+
+- [Chiao Tung University  M.A. Applied Arts]
+- [Shih Chien University  B.A. Industrial Design]
+"""
+)
+
+st.markdown(
+    """
+# Work Experience
+
+- [Logitech Far East Ltd.  Innovation Committee ]
+- [Prosol Corp. Product Designer ]
+"""
+)
+
+st.markdown(
+    """
+# Contact
+""")
+col1, col2, col3 = st.columns(3)
+
+# Card with image and text
+for col in [col1, col2, col3]:
+    col.markdown(
+        """
+        <style>
+        .profile-img img {
+            width: 100%;
+            border-radius: 10%;
+        }
+        </style>
+
+        <div class="profile-img">
+
+        ![](https://avatars.githubusercontent.com/u/7678108?v=4)
+        </div>
+        """,
+        unsafe_allow_html=True,
+    )
+
+col1, col2, col3 = st.columns(3)
+
+# Card with image and text
+for col in [col1, col2, col3]:
+    col.markdown(
+        """
+        <style>
+        .profile-img img {
+            width: 100%;
+            border-radius: 10%;
+        }
+        </style>
+
+        <div class="profile-img">
+
+        ![](https://avatars.githubusercontent.com/u/7678108?v=4)
+        </div>
+        """,
+        unsafe_allow_html=True,
+    )
+
+
+ft = """
+<style>
+a:link , a:visited{
+color: #BFBFBF;  /* theme's text color hex code at 75 percent brightness*/
+background-color: transparent;
+text-decoration: none;
+}
+
+a:hover,  a:active {
+color: #0283C3; /* theme's primary color*/
+background-color: transparent;
+text-decoration: underline;
+}
+
+#page-container {
+  position: relative;
+  min-height: 10vh;
+}
+
+footer{
+    visibility:hidden;
+}
+
+.footer {
+position: relative;
+left: 0;
+top:230px;
+bottom: 0;
+width: 100%;
+background-color: transparent;
+color: #808080; /* theme's text color hex code at 50 percent brightness*/
+text-align: left; /* you can replace 'left' with 'center' or 'right' if you want*/
+}
+</style>
+
+<div id="page-container">
+
+<div class="footer">
+<p style='font-size: 0.875em;'>Made with <a style='display: inline; text-align: left;' href="https://streamlit.io/" target="_blank">Streamlit</a><br 'style= top:3px;'>
+with <img src="https://em-content.zobj.net/source/skype/289/red-heart_2764-fe0f.png" alt="heart" height= "10"/><a style='display: inline; text-align: left;' href="https://github.com/sape94" target="_blank"> by sape94</a></p>
+</div>
+
+</div>
+"""
+st.write(ft, unsafe_allow_html=True)
