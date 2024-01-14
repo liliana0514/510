@@ -1,6 +1,7 @@
 # Liliana's personal website
 
-Hi! I'm Liliana. This is the repository for my personal website for TECHIN 510. The website showcases my education, Work Experience, Hobbies and my interesting Projects. Click here to my website.
+Hi! I'm Liliana. This is the repository for my personal website for TECHIN 510. 
+The website showcases my education, Work Experience, Hobbies and my interesting Projects. Click here to my website.
 
 ## How to Run
 Put the following In your .gitignore file
