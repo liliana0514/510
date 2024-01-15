@@ -12,17 +12,8 @@ col1, col2 = st.columns([0.4, 0.6], gap="medium")
 with col1:
     st.image('liliana.jpg', caption='Hi! I am Liliana.', use_column_width="always")
 
-    # Centered link_button using text-align
-    st.markdown("""
-    <style>
-        .stLink {
-            text-align: center;
-        }
-    </style>
-    """, unsafe_allow_html=True)
-
-    st.link_button("LinkedIn", "https://www.linkedin.com/in/liliana-hsu-43896a16b/", help=None, type="secondary", disabled=False)
-
+    # Centered link_button using text_align parameter
+    st.link_button("LinkedIn", "https://www.linkedin.com/in/liliana-hsu-43896a16b/", help=None, type="secondary", disabled=False, key="linkedin", text_align="center")
 
 with col2:
     st.subheader("Education")
