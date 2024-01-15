@@ -7,7 +7,7 @@ st.set_page_config(
     initial_sidebar_state="auto",
 )
 
-st.header("Hi! I am Liliana.:sunflower::blossom::sunflower::blossom::sunflower::blossom:")
+st.header("Hi! I am Liliana.:sunflower::sunflower::sunflower::sunflower::sunflower::sunflower:")
 col1, col2 = st.columns([0.3, 0.7])
 with col1:
     st.image('liliana.JPG', caption='Hi! I am Liliana!!')
