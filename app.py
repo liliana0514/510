@@ -31,11 +31,11 @@ col1, col2= st.columns(2)
 
 with col1:
     st.write("Zhan Zhan Sweet Lab")
-    st.image('Zhan Zhan Sweet Lab.jpg')
+    st.image('zhan zhan sweet lab.jpg')
 
 with col2:
     st.write("Zhuǎn zhuǎn")
-    st.image('Zhuan zhuan.jpg')
+    st.image('zhuan zhuan.jpg')
 
 st.divider()
 
