@@ -39,7 +39,7 @@ with col2:
 
 st.divider()
 
-st.header("My favourite song")
+st.header("My favourite song - Seesaw @Suga")
 st.video("https://www.youtube.com/watch?v=NC_Lo8nRqfA", format="video/mp4", start_time=0)
 
 
