@@ -10,7 +10,7 @@ st.set_page_config(
 st.header("Hi! I am Liliana.:sunflower::sunflower::sunflower::sunflower::sunflower::sunflower:")
 col1, col2 = st.columns([0.3, 0.7])
 with col1:
-    st.image('liliana.JPG', caption='Hi! I am Liliana!!')
+    st.image('liliana.jpg', caption='Hi! I am Liliana!!')
     st.link_button("LinkedIn", "https://www.linkedin.com/in/liliana-hsu-43896a16b/", help=None, type="secondary", disabled=False, use_container_width=False)
 
 with col2:
@@ -31,11 +31,11 @@ col1, col2= st.columns(2)
 
 with col1:
     st.write("Zhan Zhan Sweet Lab")
-    st.image('Zhan Zhan Sweet Lab.JPG')
+    st.image('Zhan Zhan Sweet Lab.jpg')
 
 with col2:
     st.write("Zhuǎn zhuǎn")
-    st.image('Zhuan zhuan.JPG')
+    st.image('Zhuan zhuan.jpg')
 
 st.divider()
 
