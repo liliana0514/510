@@ -35,7 +35,7 @@ with col1:
 
 with col2:
     st.write("Zhuǎn zhuǎn")
-
+    st.image('zhuan zhuan.JPG')
 
 st.divider()
 
