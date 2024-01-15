@@ -10,7 +10,7 @@ st.set_page_config(
 st.header("Hi! I am Liliana.:sunflower::blossom::sunflower::blossom::sunflower::blossom:")
 col1, col2 = st.columns([0.3, 0.7])
 with col1:
-    st.image('liliana.JPG', caption='Hi! I am Liliana!')
+    st.image('liliana.JPG', caption='Hi! I am Liliana!!')
     st.link_button("LinkedIn", "https://www.linkedin.com/in/liliana-hsu-43896a16b/", help=None, type="secondary", disabled=False, use_container_width=False)
 
 with col2:
@@ -35,11 +35,11 @@ with col1:
 
 with col2:
     st.write("Zhuǎn zhuǎn")
-    st.image('zhuan zhuan.JPG')
+    st.image('Zhuan zhuan.JPG')
 
 st.divider()
 
-st.header("My Favorite Song")
+st.header("My favourite song")
 st.video("https://www.youtube.com/watch?v=NC_Lo8nRqfA", format="video/mp4", start_time=0)
 
 
