@@ -11,6 +11,16 @@ st.header("Hi! I am Liliana.:sunflower::sunflower::sunflower::sunflower::sunflow
 col1, col2 = st.columns([0.4, 0.6], gap = "medium")
 with col1:
     st.image('liliana.jpg', caption='Hi! I am Liliana.', use_column_width = "always")
+    # Centered link_button using CSS
+    st.markdown("""
+    <style>
+        .stLink {
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+    """, unsafe_allow_html=True)
+
     st.link_button("LinkedIn", "https://www.linkedin.com/in/liliana-hsu-43896a16b/", help=None, type="secondary", disabled=False)
 
 with col2:
@@ -20,7 +30,7 @@ with col2:
     st.subheader("Work Experience") 
     st.write("Prototyping Lab Specialist @ GIX")
     st.write("Innovation Committee @ Logitech Far East Ltd.")
-    st.subheader("Hobbies")
+    st.subheader("Interests")
     st.write("Obsessed in Material design :heart_eyes:")
 
 st.divider()
@@ -33,7 +43,7 @@ with col1:
     st.image('zhan.jpg', use_column_width = "always")
 
 with col2:
-    st.write("Zhuǎn zhuǎn")
+    st.write("Zhuǎn Zhuǎn")
     st.image('zhuan.jpg', use_column_width = "always")
 
 st.divider()
