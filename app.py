@@ -21,14 +21,13 @@ with col2:
     st.write("Prototyping Lab Specialist @ GIX")
     st.write("Innovation Committee @ Logitech Far East Ltd.")
     st.subheader("Hobbies")
-    st.write("Obsessed in Material design")
+    st.write("Obsessed in Material design :heart_eyes:")
 
 st.divider()
 
-st.header("My Interesting project")
-# Interesting project
-col1, col2= st.columns(2)
+st.header("My Project")
 
+col1, col2= st.columns(2, gap = "medium")
 with col1:
     st.write("Zhan Zhan Sweet Lab")
     st.image('zhan.jpg', use_column_width = "always")
@@ -39,7 +38,8 @@ with col2:
 
 st.divider()
 
-st.header("My favourite song - Seesaw @Suga")
+st.header("My favourite Song")
+st.subheader("Trivia 轉 : Seesaw · BTS @ Suga :dark_sunglasses:")
 st.video("https://www.youtube.com/watch?v=NC_Lo8nRqfA", format="video/mp4", start_time=0)
 
 
