@@ -13,9 +13,6 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        node-version: [16.x]
 
     steps:
       - uses: actions/checkout@v4
@@ -70,3 +67,5 @@ jobs:
           app-name: 'ph46-techin510-lab1'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_235D4FA266044417A3E343EAD50B7C5C }}
+
+          
